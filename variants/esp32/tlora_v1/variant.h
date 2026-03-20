@@ -10,6 +10,11 @@
 #define BUTTON_NEED_PULLUP
 #define EXT_NOTIFY_OUT 13 // Default pin to use for Ext Notify Module.
 
+#define ADC_CHANNEL ADC1_GPIO35_CHANNEL
+#define BATTERY_PIN 35
+//  ratio of voltage divider = 3.2 (R17=220k, R18=100k)
+#define ADC_MULTIPLIER 3.2 // 3.0 + a bit for being optimistic
+
 #define USE_RF95
 #define LORA_DIO0 26 // a No connect on the SX1262 module
 #define LORA_RESET 14

@@ -20,10 +20,10 @@
 
 #define HAS_NEOPIXEL                              // Enable the use of neopixels
 #define NEOPIXEL_COUNT 1                          // How many neopixels are connected
-#define NEOPIXEL_DATA 16  // gpio pin used to send data to the neopixels
+#define NEOPIXEL_DATA 16                          // gpio pin used to send data to the neopixels
 #define NEOPIXEL_TYPE (NEO_GRB + NEO_KHZ800)      // type of neopixels in use
 
-#define ENABLE_AMBIENTLIGHTING
+//#define ENABLE_AMBIENTLIGHTING
 
 // #define BUTTON_PIN 0 // If defined, this will be used for user button presses
 // #define BUTTON_NEED_PULLUP
